@@ -1,0 +1,5 @@
+*.kicad_pcb
+*.aux
+*.log
+*.gz
+

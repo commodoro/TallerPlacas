@@ -1,0 +1,268 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5E52A84A
+P 4200 2400
+F 0 "R1" H 4270 2446 50  0000 L CNN
+F 1 "3M3" H 4270 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 2400 50  0001 C CNN
+F 3 "~" H 4200 2400 50  0001 C CNN
+	1    4200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E52ABCA
+P 6900 3950
+F 0 "R3" H 6830 3904 50  0000 R CNN
+F 1 "130" H 6830 3995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 3950 50  0001 C CNN
+F 3 "~" H 6900 3950 50  0001 C CNN
+	1    6900 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E52AF9E
+P 4550 3500
+F 0 "R2" H 4620 3546 50  0000 L CNN
+F 1 "3M3" H 4620 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4480 3500 50  0001 C CNN
+F 3 "~" H 4550 3500 50  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E52B3D3
+P 6100 3550
+F 0 "C1" H 6215 3596 50  0000 L CNN
+F 1 "C" H 6215 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 3400 50  0001 C CNN
+F 3 "~" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5E52C4E8
+P 3850 3200
+F 0 "JP2" V 3896 3112 50  0000 R CNN
+F 1 "ON" V 3805 3112 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3850 3200 50  0001 C CNN
+F 3 "~" H 3850 3200 50  0001 C CNN
+	1    3850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5E52CB21
+P 3550 3200
+F 0 "JP1" V 3596 3112 50  0000 R CNN
+F 1 "OFF" V 3505 3112 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3550 3200 50  0001 C CNN
+F 3 "~" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5E52D82C
+P 6900 3500
+F 0 "D1" H 6893 3716 50  0000 C CNN
+F 1 "LED" H 6893 3625 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6900 3500 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E52DD4A
+P 7300 3500
+F 0 "D2" H 7293 3716 50  0000 C CNN
+F 1 "LED" H 7293 3625 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7300 3500 50  0001 C CNN
+F 3 "~" H 7300 3500 50  0001 C CNN
+	1    7300 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E52E34B
+P 7300 3950
+F 0 "R4" H 7370 3996 50  0000 L CNN
+F 1 "130" H 7370 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7230 3950 50  0001 C CNN
+F 3 "~" H 7300 3950 50  0001 C CNN
+	1    7300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:TLC555 U1
+U 1 1 5E52EE29
+P 5450 3200
+F 0 "U1" H 5450 3781 50  0000 C CNN
+F 1 "TLC555" H 5450 3690 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 6100 2650 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E52F783
+P 6650 2450
+F 0 "BT1" H 6768 2546 50  0000 L CNN
+F 1 "CR2032" H 6768 2455 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3002_1x2032" V 6650 2510 50  0001 C CNN
+F 3 "~" V 6650 2510 50  0001 C CNN
+	1    6650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2250 6650 2000
+Wire Wire Line
+	6650 2000 6100 2000
+Wire Wire Line
+	5450 2000 5450 2800
+Wire Wire Line
+	7300 3200 7300 3350
+Wire Wire Line
+	6900 3350 6900 3200
+Connection ~ 6900 3200
+Wire Wire Line
+	6900 3200 7300 3200
+Wire Wire Line
+	5950 3200 6900 3200
+$Comp
+L power:GND #PWR0101
+U 1 1 5E5328C8
+P 5450 3900
+F 0 "#PWR0101" H 5450 3650 50  0001 C CNN
+F 1 "GND" H 5455 3727 50  0000 C CNN
+F 2 "" H 5450 3900 50  0001 C CNN
+F 3 "" H 5450 3900 50  0001 C CNN
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E532D1A
+P 6650 2800
+F 0 "#PWR0102" H 6650 2550 50  0001 C CNN
+F 1 "GND" H 6655 2627 50  0000 C CNN
+F 2 "" H 6650 2800 50  0001 C CNN
+F 3 "" H 6650 2800 50  0001 C CNN
+	1    6650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2550 6650 2800
+Wire Wire Line
+	5450 3500 5450 3800
+$Comp
+L power:GND #PWR0103
+U 1 1 5E53368C
+P 7100 4400
+F 0 "#PWR0103" H 7100 4150 50  0001 C CNN
+F 1 "GND" H 7105 4227 50  0000 C CNN
+F 2 "" H 7100 4400 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3650 7300 3800
+Wire Wire Line
+	7300 4100 7300 4350
+Wire Wire Line
+	7300 4350 7100 4350
+Wire Wire Line
+	7100 4350 7100 4400
+Wire Wire Line
+	6900 4100 6900 4350
+Wire Wire Line
+	6900 4350 7100 4350
+Connection ~ 7100 4350
+Wire Wire Line
+	6900 3650 6900 3800
+NoConn ~ 4950 3000
+Wire Wire Line
+	5950 3300 6100 3300
+Wire Wire Line
+	6100 3300 6100 3400
+Wire Wire Line
+	6100 3700 6100 3800
+Wire Wire Line
+	6100 3800 5450 3800
+Connection ~ 5450 3800
+Wire Wire Line
+	5450 3800 5450 3900
+Wire Wire Line
+	4950 3200 4500 3200
+Wire Wire Line
+	4500 3200 4500 2850
+Wire Wire Line
+	4500 2850 4200 2850
+Wire Wire Line
+	3850 2850 3850 3050
+Wire Wire Line
+	3850 3350 3850 3800
+Wire Wire Line
+	3850 3800 4550 3800
+Wire Wire Line
+	4950 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 3350
+Wire Wire Line
+	4550 3650 4550 3800
+Connection ~ 4550 3800
+Wire Wire Line
+	4550 3800 5450 3800
+Wire Wire Line
+	3550 3050 3550 2000
+Wire Wire Line
+	3550 2000 4200 2000
+Connection ~ 5450 2000
+Wire Wire Line
+	4200 2250 4200 2000
+Connection ~ 4200 2000
+Wire Wire Line
+	4200 2000 5450 2000
+Wire Wire Line
+	4200 2550 4200 2850
+Connection ~ 4200 2850
+Wire Wire Line
+	4200 2850 3850 2850
+Wire Wire Line
+	4550 3300 4200 3300
+Wire Wire Line
+	4200 3300 4200 3450
+Wire Wire Line
+	4200 3450 3550 3450
+Wire Wire Line
+	3550 3450 3550 3350
+Connection ~ 4550 3300
+Wire Wire Line
+	5950 3000 6100 3000
+Wire Wire Line
+	6100 3000 6100 2000
+Connection ~ 6100 2000
+Wire Wire Line
+	6100 2000 5450 2000
+$EndSCHEMATC
